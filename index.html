@@ -26,51 +26,7 @@
     <script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__fd54d8440ae146e24183f3a920f85c36__//js/jquery.min.js"></script>
     <script type="text/javascript" src="//cdn.scratch.mit.edu/scratchr2/static/__fd54d8440ae146e24183f3a920f85c36__/js/lib/underscore-min.js"></script>
     
-    <script>
-      window.console||(window.console={log:$.noop,error:$.noop,debug:$.noop}); // ensure console fails gracefully when missing
-      // define _gaq here to log errors with GA. ga.js script gets loaded furthe down
-      var sessionCookieName = 'scratchsessionsid';
-      var _gaq = window._gaq || [];
-      _gaq.push(['_setAccount', 'UA-30688952-1']);
-      _gaq.push(['_setSampleRate', '10']);
-      _gaq.push(['_trackPageview']);
-      
-      
-      
-      
-
-      
-    </script>
-    <script type="text/javascript">
-        function getCookie(name) {
-            var cookieValue = null;
-            if (document.cookie && document.cookie != '') {
-                var cookies = document.cookie.split(';');
-                for (var i = 0; i < cookies.length; i++) {
-                    var cookie = jQuery.trim(cookies[i]);
-                    // Does this cookie string begin with the name we want?
-                    if (cookie.substring(0, name.length + 1) == (name + '=')) {
-                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
-                        break;
-                    }
-                }
-            }
-            return cookieValue;
-        }
-
-        function setCookie(name, value, days) {
-            var expires;
-
-            if (days) {
-                var date = new Date();
-                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-                expires = "; expires=" + date.toGMTString();
-            } else {
-                expires = "";
-            }
-            document.cookie = escape(name) + "=" + escape(value) + expires + "; path=/";
-        }
-    </script>
+   
     
   <script>
     
