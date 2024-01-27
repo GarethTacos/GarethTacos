@@ -11,4 +11,4 @@
 #### 📫 How to reach me: 
  garethtacosmail@gmx.com (I check my inbox rarely, so apologies for replying late).
 #### 🗂️ Miscellaneous:
- ![Pubkey](https://img.shields.io/badge/GnuPG_Public_Key-333?style=for-the-badge&logo=GNU%20Privacy%20Guard&logoColor=0093DD)
+ [![Pubkey](https://img.shields.io/badge/GnuPG_Public_Key-333?style=for-the-badge&logo=GNU%20Privacy%20Guard&logoColor=0093DD)](https://raw.githubusercontent.com/GarethTacos/GarethTacos/main/tacospub.asc)
